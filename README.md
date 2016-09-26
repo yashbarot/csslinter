@@ -18,7 +18,7 @@ npm install gulp-stylelint --save-dev
 npm install stylelint-config-standard --save-dev
 ```
 
-Sample gulp script
+Sample gulp script `gulpfile.js`
 ```
 const gulp = require('gulp');
 
@@ -38,7 +38,7 @@ gulp.task('lint-css', function lintCssTask() {
     }));
 });
 ```
-Following are the stylint standard rules with custom included.
+Following are the stylint standard rules with custom included `.stylelintrc`
 ```
 {
   "extends": "stylelint-config-standard",
